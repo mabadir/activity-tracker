@@ -14,7 +14,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "MAbadir\\ActivityTracker\\": "src/"
+            "Mabadir\\ActivityTracker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mabadir\\ActivityTracker\\Tests\\": "tests/"
         }
     },
     "require": {}

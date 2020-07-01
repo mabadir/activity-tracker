@@ -12,7 +12,13 @@ class ActivityTrackerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Route::middleware('api')
+        Route::prefix('api')
+            ->namespace('Mabadir\ActivityTracker\Http\Controllers')
              ->group(__DIR__."/routes/api.php");
+    }
+
+    public function register()
+    {
+
     }
 }
