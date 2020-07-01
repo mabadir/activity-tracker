@@ -1,0 +1,21 @@
+{
+    "name": "mabadir/activity-tracker",
+    "description": "Activity Tracker API",
+    "type": "library",
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mina Abadir",
+            "email": "mina@abadir.email"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MAbadir\\ActivityTracker\\": "src/"
+        }
+    },
+    "require": {}
+}
