@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="Mabadir\ActivityTracker\Tests\ActivityTrackerTest" file="/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.290804">
-    <testcase name="user_can_submit_their_activity" class="Mabadir\ActivityTracker\Tests\ActivityTrackerTest" classname="Mabadir.ActivityTracker.Tests.ActivityTrackerTest" file="/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php" line="41" assertions="1" time="0.290804"/>
-  </testsuite>
-</testsuites>
