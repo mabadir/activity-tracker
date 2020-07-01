@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Mabadir\ActivityTracker\Tests\ActivityTrackerTest" file="/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.181841">
-    <testcase name="user_can_submit_their_activity" class="Mabadir\ActivityTracker\Tests\ActivityTrackerTest" classname="Mabadir.ActivityTracker.Tests.ActivityTrackerTest" file="/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php" line="40" assertions="0" time="0.181841">
-      <error type="Illuminate\Contracts\Container\BindingResolutionException">Mabadir\ActivityTracker\Tests\ActivityTrackerTest::user_can_submit_their_activity
-Illuminate\Contracts\Container\BindingResolutionException: Target class [ActivityTypeSeeder] does not exist.
-
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/Container.php:807
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/Container.php:687
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:796
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/Container.php:633
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:781
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:84
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:65
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php:148
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:66
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:33
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/Util.php:37
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:91
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Container/Container.php:592
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Console/Command.php:134
-/Users/mina/Code/activity-tracker/vendor/symfony/console/Command/Command.php:258
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Console/Command.php:121
-/Users/mina/Code/activity-tracker/vendor/symfony/console/Application.php:911
-/Users/mina/Code/activity-tracker/vendor/symfony/console/Application.php:264
-/Users/mina/Code/activity-tracker/vendor/symfony/console/Application.php:140
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Console/Application.php:93
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:171
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:291
-/Users/mina/Code/activity-tracker/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:52
-/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php:36
-</error>
-    </testcase>
+  <testsuite name="Mabadir\ActivityTracker\Tests\ActivityTrackerTest" file="/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.290804">
+    <testcase name="user_can_submit_their_activity" class="Mabadir\ActivityTracker\Tests\ActivityTrackerTest" classname="Mabadir.ActivityTracker.Tests.ActivityTrackerTest" file="/Users/mina/Code/activity-tracker/tests/ActivityTrackerTest.php" line="41" assertions="1" time="0.290804"/>
   </testsuite>
 </testsuites>

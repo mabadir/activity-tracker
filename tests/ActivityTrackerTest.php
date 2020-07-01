@@ -33,7 +33,8 @@ class ActivityTrackerTest extends TestCase
     public function setUp() : void
     {
         parent::setUp();
-        $this->artisan('db:seed', ['--class' => 'ActivityTypeSeeder']);
+        include_once(__DIR__ . "/../database/seeds/ActivityTypeSeeder.php");
+        $this->seed(\ActivityTypeSeeder::class);
     }
 
         /** @test */
