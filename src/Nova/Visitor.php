@@ -50,7 +50,7 @@ class Visitor extends Resource
     {
         return [
             ID::make()->sortable(),
-            BelongsTo::make('User')->nullable(),
+            BelongsTo::make('User', 'user', 'App\Nova\User')->nullable(),
             HasMany::make('Activities'),
         ];
     }

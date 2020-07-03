@@ -2,7 +2,7 @@
 
 namespace Mabadir\ActivityTracker\Nova\Metrics;
 
-use Mabadir\ActivityTracker\Nova\Activity;
+use Mabadir\ActivityTracker\Models\Activity;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Metrics\Trend;
 
