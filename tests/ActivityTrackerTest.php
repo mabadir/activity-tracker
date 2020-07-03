@@ -18,27 +18,13 @@ class ActivityTrackerTest extends TestCase
         return ['Mabadir\ActivityTracker\ActivityTrackerServiceProvider'];
     }
 
-    /**
-    * Define environment setup.
-    *
-    * @param  \Illuminate\Foundation\Application  $app
-    * @return void
-    */
-    protected function getEnvironmentSetUp($app)
-    {
-        include_once(__DIR__ . "/../database/migrations/create_activities_table.php.stub");
-        include_once(__DIR__ . "/../database/migrations/create_activity_types_table.php.stub");
-        include_once(__DIR__ . "/../database/migrations/create_visitors_table.php.stub");
-
-        (new \CreateActivitiesTable)->up();
-        (new \CreateActivityTypesTable)->up();
-        (new \CreateVisitorsTable)->up();
-
-    }
-
     public function setUp() : void
     {
         parent::setUp();
+
+        $this->loadLaravelMigrations();
+        $this->artisan('migrate', ['--database' => 'testing'])->run();
+
         $this->visitor_id = (string) Str::uuid();
         $this->payload = [];
         $this->type = 'visit';
