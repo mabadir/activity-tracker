@@ -3,6 +3,7 @@
 namespace Mabadir\ActivityTracker\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
 class Visitor extends Model
 {
